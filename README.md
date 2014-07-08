@@ -3,7 +3,7 @@
 This is a plugin for Play 2.2, enabling support for AWScala, but with an Asynchronous & Non-Blocking implementation.
 
 
-## Add ReactiveMongo to your dependencies
+## Add ReactDynamo to your dependencies
 
 ```scala
 libraryDependencies ++= Seq(
@@ -11,7 +11,7 @@ libraryDependencies ++= Seq(
 )
 ```
 
-## Configure your application to use ReactiveMongo plugin
+## Configure your application to use ReactDynamo plugin
 ### add to your conf/play.plugins
 ```
 1100:play.modules.reactdynamo.DynamoPlugin
